@@ -18,12 +18,14 @@ Open http://localhost:3000 in your favorite browser.
 
 This step is mandatory as the app needs to be open in the browser to reproduce the issue.
 
-### 4. Spam save `plugins/foo.ts`
+### 4. Save `plugins/foo.ts`
 
-Go in `plugins/foo.ts` in your favorite editor and spam save the file to trigger hot reload fast.
+Go in `plugins/foo.ts` in your favorite editor and save the file to trigger hot reload.
 
 ### 5. Issue
 
 You should ends up with Nuxt crashing with the following error :
 
 ![image](https://user-images.githubusercontent.com/25272043/159538872-6b231ec9-5a8a-4d93-a745-70e80677681d.png)
+
+If it didn't crash, try to spam save the plugin file.
