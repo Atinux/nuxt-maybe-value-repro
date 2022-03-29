@@ -1,8 +1,11 @@
-<template>
-  <div>Reproduction</div>
-</template>
-
 <script setup lang="ts">
-const { findOne } = useContentQuery().where({ id: 'content:footer.md' })
-findOne() // Will crash Nuxt when saving multiple times a plugin fast
+await $fetch('/api/get')
+
+// Will crash Nuxt when saving multiple times ~/plugins/foo.ts
 </script>
+
+<template>
+  <div>
+    <div>Reproduction: please go to <code>~/plugins/foo.ts</code> and save multiple times the file</div>
+  </div>
+</template>

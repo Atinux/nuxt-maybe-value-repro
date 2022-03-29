@@ -8,10 +8,8 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
     "eslint": "^8.11.0",
-    "nuxt3": "latest",
-    "typescript": "^4.6.2"
+    "nuxt3": "latest"
   }
 }
